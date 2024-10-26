@@ -1,9 +1,3 @@
-# ums-l200220262.github.io
-Assignment IPSD
-
-
-Langkah-Langkah :
-Code Program:
 from metaflow import FlowSpec, step
 
 class AttendingClassesFlow(FlowSpec):
@@ -55,19 +49,3 @@ class AttendingClassesFlow(FlowSpec):
 
 if __name__ == '__main__':
     AttendingClassesFlow()
-
-
-Langkah langkah menjalankan program:
-1. menyiapkan env
-conda create -n cs_classes python=3.8
-conda activate cs_classes
-pip install metaflow
-
-2.Jalankan Metaflow
-python attending_classes.py run
-
-#output di terminal yang menunjukkan langkah-langkah yang diambil oleh mahasiswa.
-
-visualisasi alur :
-python attending_classes.py show
-
