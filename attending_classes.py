@@ -1,3 +1,4 @@
+#ini adalah file UTS abaikan untuk mengerjakan tugas uas
 from metaflow import FlowSpec, step
 
 class AttendingClassesFlow(FlowSpec):
