@@ -37,7 +37,7 @@
 </head>
 <body>
     <h1>Selamat Datang di Tugas 2 UAS IPSD</h1>
-    <h3>Afrizal Putra Pratama | L200220262</h3>
+    <h3>Afrizal Putra Pratama | L200220262 | IPSD</h3>
     <h3>Gunakan /index.html untuk menuju laporan tugas</h3>
 </body>
 </html>
