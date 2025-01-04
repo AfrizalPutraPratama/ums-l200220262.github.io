@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Clustering</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS -->
+</head>
+<body>
+    <h1>Laporan Clustering</h1>
+    
+    <h2>Tahapan Penyelesaian Tugas</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>1. Export Konten</h3>
+            <p><strong>Export konten beberapa group Whatsapp:</strong> Berasal dari beberapa GROUP yang berbeda untuk digabung menjadi satu file. File yang saya gunakan bernama data_group.txt</p>
+        </div>
+        <div class="card">
+            <h3>2. Konversi Data</h3>
+            <p><strong>Konversi data grub dari TXT ke CSV:</strong> Menggunakan aplikasi Excel dan kemudian dari aplikasi Excel export file tersebut menjadi file CSV. Hasil dari Konversi file menjadi data_group.csv setelah itu mengkonversi file data tersebut menjadi file TAR.</p>
+        </div>
+        <div class="card">
+            <h3>3. Pembersihan Data</h3>
+            <p><strong>Pembersihan Data:</strong> Mengambil angka, huruf dan tanda baca-tulis umum. Saya menggunakan code Python untuk melakukan filtering data pada file clean_data.py dan menghasilkan cleaned_data_group.csv.</p>
+        </div>
+        <div class="card">
+            <h3>4. Kode Program</h3>
+            <p><strong>Kode program scale_data.py dan many_kmeans_flow.py:</strong> Kode (scale_data.py) membaca data teks dari file CSV, mengubahnya menjadi angka (numerik) menggunakan metode TF-IDF, dan menyimpan hasilnya ke file CSV baru bernama scaled_data.csv.</p>
+        </div>
+        <div class="card">
+            <h3>5. Hasil Clustering</h3>
+            <p><strong>Tampilkan hasil clustering:</strong> Tahap ini menghasilkan:</p>
+            <h4>3 Clusters</h4>
+            <pre>Cluster 0: 856
+Cluster 1: 090
+Cluster 2: ber</pre>
+            <h4>4 Clusters</h4>
+            <pre>Cluster 0: eror
+Cluster 1: gak
+Cluster 2: 32
+Cluster 3: lagi</pre>
+            <h4>5 Clusters</h4>
+            <pre>Cluster 0: smart
+Cluster 1: id
+Cluster 2: ig
+Cluster 3: event
+Cluster 4: atau</pre>
+        </div>
+    </div>
+
+    <h2>Analisis dan Kesimpulan</h2>
+    <div class="analysis-card">
+        <h3>Analisis</h3>
+        <p>Hasil clustering menunjukkan bahwa untuk tiga kluster, istilah yang paling dominan adalah "856", "090", "ber" yang mungkin mencerminkan pola atau kategori tertentu dalam data, meskipun beberapa istilah tampak tidak lengkap. Untuk empat kluster, istilah seperti "eror", "gak", "32" menunjukkan adanya masalah atau ketidakpuasan, sementara untuk lima kluster, istilah "smart", "id", "ig", "event", dan "atau" menunjukkan fokus pada teknologi.</p>
+        
+        <h3>Kesimpulan</h3>
+        <p>Kesimpulan dari hasil clustering ini adalah bahwa data yang dianalisis menunjukkan pola yang berbeda tergantung pada jumlah kluster yang digunakan. Pada tiga kluster, istilah yang muncul cenderung tidak lengkap dan mungkin mencerminkan kategori yang kurang jelas. Pada empat kluster, terdapat indikasi masalah atau ketidakpuasan yang diwakili oleh istilah seperti "eror" dan "gak". Sementara itu, pada lima kluster, istilah yang muncul lebih relevan dengan tema teknologi.</p>
+    </div>
+</body>
+</html>
